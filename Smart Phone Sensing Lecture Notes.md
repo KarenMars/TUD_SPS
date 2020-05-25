@@ -1,5 +1,10 @@
 # Smart Phone Sensing Lecture Notes
 
+## Resources
+
+- [Android Development Tutorial Website](<https://www.tutorialspoint.com/android/android_user_interface_layouts.htm>)
+- 
+
 ## Setting Up Working Environment 
 
 - Gradle-based build system
@@ -9,11 +14,14 @@
 - [The Project Structure](<https://developer.android.com/studio/intro>)
 
   - manifests: contains the AndroidManifest.xml file
-
   - java: contains the Java source code files, including JUnit test code
-
   - res: Contains all non-code resources, such as XML layouts, UI Strings, and bitmap images
 
+## Notes for Tutorials 
+
+- 中文 [link](<https://developer.android.com/guide/components/activities/intro-activities?hl=zh-cn>)
+- How to access the resources in Android
+- Activities in Android 
 
 ### Build the first app
 
@@ -24,6 +32,7 @@
 - Changing the phone into developer mode 
 
   Find the build number on the phone (版本号) and tap on it seven times and the phone is under the development mode. 
+
 
 ##  Lecture 1 Logistics of the Course
 
@@ -45,7 +54,11 @@
 
   Particle Filters -> week 8 -> 80%
 
-### KNN & RSS for Activity Monitoring and Localization
+### KNN & RSSI for Activity Monitoring and Localization
+
+- RSSI (Received signal strength indication)
+
+  RSSI is the relative received signal strength in a wireless environment, in arbitrary units. RSSI is an indication of the power level being received by the receiving radio after the antenna and possible cable loss. The greater the RSSI value, the stronger the signal. RSSI is represented in a negative form, the closer value is to 0, the stronger the received signal has been. 
 
 - Steps for classification
 
